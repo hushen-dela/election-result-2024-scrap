@@ -1,9 +1,9 @@
-# Getting started with Crawlee
+# Crawl India Election Result with Crawlee
 
-This example uses `PlaywrightCrawler` to recursively crawl https://crawlee.dev using the browser automation library [Playwright](https://playwright.dev).
+This example uses `PlaywrightCrawler` to recursively crawl http://results.eci.gov.in/ using the browser automation library [Playwright](https://playwright.dev).
 
-You can find more examples and documentation at the following links:
+You can find JSON data in result:
 
-- [Step-by-step tutorial](https://crawlee.dev/docs/introduction) for Crawlee
-- `PlaywrightCrawler` [API documentation](https://crawlee.dev/api/playwright-crawler/class/PlaywrightCrawler)
-- Other [examples](https://crawlee.dev/docs/examples/playwright-crawler)
+- List of party with total winnig seat
+- List of candidates
+- list of city with candidate
