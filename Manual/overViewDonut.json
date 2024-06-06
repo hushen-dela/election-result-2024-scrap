@@ -1,0 +1,57 @@
+[
+  {
+    "label": "BJP",
+    "data": 240,
+    "backgroundColor": "#ff944d"
+  },
+  {
+    "label": "INC",
+    "data": 99,
+    "backgroundColor": "#19AAED"
+  },
+  {
+    "label": "SP",
+    "data": 37,
+    "backgroundColor": "#ff0000"
+  },
+  {
+    "label": "AITC",
+    "data": 29,
+    "backgroundColor": "#aebedf"
+  },
+  {
+    "label": "DMK",
+    "data": 22,
+    "backgroundColor": "#05F86E"
+  },
+  {
+    "label": "TDP",
+    "data": 16,
+    "backgroundColor": "#204795"
+  },
+  {
+    "label": "JD(U)",
+    "data": 12,
+    "backgroundColor": "#39AC57"
+  },
+  {
+    "label": "SHSUBT",
+    "data": 9,
+    "backgroundColor": "#61DA8C"
+  },
+  {
+    "label": "NCPSP",
+    "data": 8,
+    "backgroundColor": "#457A8B"
+  },
+  {
+    "label": "SHS",
+    "data": 7,
+    "backgroundColor": "#D2691E"
+  },
+  {
+    "label": "Others",
+    "data": 64,
+    "backgroundColor": "#b3b3b3"
+  }
+]

@@ -1,0 +1,326 @@
+[
+  {
+    "partyName": "AAAP",
+    "percentage": "1.11%",
+    "count": 7147800,
+    "backgroundColor": "#0072B0"
+  },
+  {
+    "partyName": "ADAL",
+    "percentage": "0.13%",
+    "count": 808245,
+    "backgroundColor": "#8F5E1C"
+  },
+  {
+    "partyName": "ADMK",
+    "percentage": "1.39%",
+    "count": 8952587,
+    "backgroundColor": "#A08547"
+  },
+  {
+    "partyName": "AGP",
+    "percentage": "0.20%",
+    "count": 1298707,
+    "backgroundColor": "#3B02C9"
+  },
+  {
+    "partyName": "AIFB",
+    "percentage": "0.04%",
+    "count": 289941,
+    "backgroundColor": "#ff3333"
+  },
+  {
+    "partyName": "AIMIM",
+    "percentage": "0.22%",
+    "count": 1400215,
+    "backgroundColor": "#00664d"
+  },
+  {
+    "partyName": "AITC",
+    "percentage": "4.37%",
+    "count": 28213393,
+    "backgroundColor": "#aebedf"
+  },
+  {
+    "partyName": "AIUDF",
+    "percentage": "0.10%",
+    "count": 625954,
+    "backgroundColor": "#8AB3C5"
+  },
+  {
+    "partyName": "AJSUP",
+    "percentage": "0.07%",
+    "count": 458677,
+    "backgroundColor": "#3A15F9"
+  },
+  {
+    "partyName": "BHRS",
+    "percentage": "0.57%",
+    "count": 3657237,
+    "backgroundColor": "#F84996"
+  },
+  {
+    "partyName": "BJD",
+    "percentage": "1.46%",
+    "count": 9413379,
+    "backgroundColor": "#9547A2"
+  },
+  {
+    "partyName": "BJP",
+    "percentage": "36.56%",
+    "count": 235973935,
+    "backgroundColor": "#ff944d"
+  },
+  {
+    "partyName": "BOPF",
+    "percentage": "0.12%",
+    "count": 777570,
+    "backgroundColor": "#4D73AE"
+  },
+  {
+    "partyName": "BSP",
+    "percentage": "2.04%",
+    "count": 13153818,
+    "backgroundColor": "#000078"
+  },
+  {
+    "partyName": "CPI",
+    "percentage": "0.49%",
+    "count": 3157184,
+    "backgroundColor": "#e70d21"
+  },
+  {
+    "partyName": "CPI(M)",
+    "percentage": "1.76%",
+    "count": 11342553,
+    "backgroundColor": "#FF1D15"
+  },
+  {
+    "partyName": "CPI(ML)(L)",
+    "percentage": "0.27%",
+    "count": 1736771,
+    "backgroundColor": "#E97D43"
+  },
+  {
+    "partyName": "DMDK",
+    "percentage": "0.17%",
+    "count": 1128616,
+    "backgroundColor": "#E6C018"
+  },
+  {
+    "partyName": "DMK",
+    "percentage": "1.82%",
+    "count": 11754710,
+    "backgroundColor": "#05F86E"
+  },
+  {
+    "partyName": "INC",
+    "percentage": "21.19%",
+    "count": 136759064,
+    "backgroundColor": "#19AAED"
+  },
+  {
+    "partyName": "INLD",
+    "percentage": "0.04%",
+    "count": 226975,
+    "backgroundColor": "#EA0D35"
+  },
+  {
+    "partyName": "IUML",
+    "percentage": "0.27%",
+    "count": 1716186,
+    "backgroundColor": "#006600"
+  },
+  {
+    "partyName": "JD(S)",
+    "percentage": "0.34%",
+    "count": 2173701,
+    "backgroundColor": "#02865A"
+  },
+  {
+    "partyName": "JD(U)",
+    "percentage": "1.25%",
+    "count": 8039663,
+    "backgroundColor": "#39AC57"
+  },
+  {
+    "partyName": "JKN",
+    "percentage": "0.18%",
+    "count": 1147041,
+    "backgroundColor": "#1094D3"
+  },
+  {
+    "partyName": "JKNPPB",
+    "percentage": "0.00%",
+    "count": 23268,
+    "backgroundColor": "#3879C4"
+  },
+  {
+    "partyName": "JKPDP",
+    "percentage": "0.07%",
+    "count": 435980,
+    "backgroundColor": "#87C2B9"
+  },
+  {
+    "partyName": "JMM",
+    "percentage": "0.41%",
+    "count": 2652955,
+    "backgroundColor": "#337316"
+  },
+  {
+    "partyName": "JNJP",
+    "percentage": "0.02%",
+    "count": 113827,
+    "backgroundColor": "#00009C"
+  },
+  {
+    "partyName": "KEC(M)",
+    "percentage": "0.04%",
+    "count": 277365,
+    "backgroundColor": "#A209D6"
+  },
+  {
+    "partyName": "LJPRV",
+    "percentage": "0.44%",
+    "count": 2810250,
+    "backgroundColor": "#A2006D"
+  },
+  {
+    "partyName": "MNF",
+    "percentage": "0.02%",
+    "count": 140264,
+    "backgroundColor": "#2E5694"
+  },
+  {
+    "partyName": "NCP",
+    "percentage": "0.32%",
+    "count": 2059179,
+    "backgroundColor": "#4bc0c0"
+  },
+  {
+    "partyName": "NCPSP",
+    "percentage": "0.92%",
+    "count": 5921162,
+    "backgroundColor": "#EC79FD"
+  },
+  {
+    "partyName": "NDPP",
+    "percentage": "0.05%",
+    "count": 350967,
+    "backgroundColor": "#483D8B"
+  },
+  {
+    "partyName": "NOTA",
+    "percentage": "0.99%",
+    "count": 6372220,
+    "backgroundColor": "#ff6384"
+  },
+  {
+    "partyName": "NPEP",
+    "percentage": "0.06%",
+    "count": 417930,
+    "backgroundColor": "#ffb84d"
+  },
+  {
+    "partyName": "NPF",
+    "percentage": "0.05%",
+    "count": 299536,
+    "backgroundColor": "#306D29"
+  },
+  {
+    "partyName": "RJD",
+    "percentage": "1.57%",
+    "count": 10107402,
+    "backgroundColor": "#D6901B"
+  },
+  {
+    "partyName": "RLTP",
+    "percentage": "0.09%",
+    "count": 596955,
+    "backgroundColor": "#99cc00"
+  },
+  {
+    "partyName": "RVLTGONP",
+    "percentage": "0.01%",
+    "count": 64578,
+    "backgroundColor": "#0BFE5D"
+  },
+  {
+    "partyName": "SAD",
+    "percentage": "0.28%",
+    "count": 1814318,
+    "backgroundColor": "#715B2F"
+  },
+  {
+    "partyName": "SDF",
+    "percentage": "0.01%",
+    "count": 77171,
+    "backgroundColor": "#68C539"
+  },
+  {
+    "partyName": "SHS",
+    "percentage": "1.15%",
+    "count": 7401447,
+    "backgroundColor": "#D2691E"
+  },
+  {
+    "partyName": "SHSUBT",
+    "percentage": "1.48%",
+    "count": 9567779,
+    "backgroundColor": "#30F59B"
+  },
+  {
+    "partyName": "SKM",
+    "percentage": "0.03%",
+    "count": 164396,
+    "backgroundColor": "#9A485D"
+  },
+  {
+    "partyName": "SP",
+    "percentage": "4.58%",
+    "count": 29549381,
+    "backgroundColor": "#ff0000"
+  },
+  {
+    "partyName": "TDP",
+    "percentage": "1.98%",
+    "count": 12775270,
+    "backgroundColor": "#204795"
+  },
+  {
+    "partyName": "UDP",
+    "percentage": "0.01%",
+    "count": 44563,
+    "backgroundColor": "#AD6812"
+  },
+  {
+    "partyName": "UPPL",
+    "percentage": "0.08%",
+    "count": 488995,
+    "backgroundColor": "#51F4A9"
+  },
+  {
+    "partyName": "VOTPP",
+    "percentage": "0.09%",
+    "count": 571078,
+    "backgroundColor": "#A17693"
+  },
+  {
+    "partyName": "YSRCP",
+    "percentage": "2.06%",
+    "count": 13316039,
+    "backgroundColor": "#eb3734"
+  },
+  {
+    "partyName": "ZPM",
+    "percentage": "0.03%",
+    "count": 208552,
+    "backgroundColor": "#B3B300"
+  },
+  {
+    "partyName": "Others",
+    "percentage": "7.03%",
+    "count": 45386696,
+    "backgroundColor": "#b3b3b3"
+  }
+]

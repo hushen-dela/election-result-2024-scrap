@@ -1,0 +1,178 @@
+import fs from "fs";
+
+// Doughnut Charts Starts Here
+var xValues = [
+  "BJP",
+  "INC",
+  "SP",
+  "AITC",
+  "DMK",
+  "TDP",
+  "JD(U)",
+  "SHSUBT",
+  "NCPSP",
+  "SHS",
+  "Others",
+];
+var yValues = [240, 99, 37, 29, 22, 16, 12, 9, 8, 7, 64];
+var barColors = [
+  "#ff944d",
+  "#19AAED",
+  "#ff0000",
+  "#aebedf",
+  "#05F86E",
+  "#204795",
+  "#39AC57",
+  "#61DA8C",
+  "#457A8B",
+  "#D2691E",
+  "#b3b3b3",
+];
+
+const overViewDonut = xValues.map((item, index) => {
+  return {
+    label: item,
+    data: yValues[index],
+    backgroundColor: barColors[index],
+  };
+});
+// create a json file for the above data
+fs.writeFileSync("overViewDonut.json", JSON.stringify(overViewDonut));
+
+// Pi Charts Starts Here
+var xValues = [
+  "AAAP{1.11%}",
+  "ADAL{0.13%}",
+  "ADMK{1.39%}",
+  "AGP{0.20%}",
+  "AIFB{0.04%}",
+  "AIMIM{0.22%}",
+  "AITC{4.37%}",
+  "AIUDF{0.10%}",
+  "AJSUP{0.07%}",
+  "BHRS{0.57%}",
+  "BJD{1.46%}",
+  "BJP{36.56%}",
+  "BOPF{0.12%}",
+  "BSP{2.04%}",
+  "CPI{0.49%}",
+  "CPI(M){1.76%}",
+  "CPI(ML)(L){0.27%}",
+  "DMDK{0.17%}",
+  "DMK{1.82%}",
+  "INC{21.19%}",
+  "INLD{0.04%}",
+  "IUML{0.27%}",
+  "JD(S){0.34%}",
+  "JD(U){1.25%}",
+  "JKN{0.18%}",
+  "JKNPPB{0.00%}",
+  "JKPDP{0.07%}",
+  "JMM{0.41%}",
+  "JNJP{0.02%}",
+  "KEC(M){0.04%}",
+  "LJPRV{0.44%}",
+  "MNF{0.02%}",
+  "NCP{0.32%}",
+  "NCPSP{0.92%}",
+  "NDPP{0.05%}",
+  "NOTA{0.99%}",
+  "NPEP{0.06%}",
+  "NPF{0.05%}",
+  "RJD{1.57%}",
+  "RLTP{0.09%}",
+  "RVLTGONP{0.01%}",
+  "SAD{0.28%}",
+  "SDF{0.01%}",
+  "SHS{1.15%}",
+  "SHSUBT{1.48%}",
+  "SKM{0.03%}",
+  "SP{4.58%}",
+  "TDP{1.98%}",
+  "UDP{0.01%}",
+  "UPPL{0.08%}",
+  "VOTPP{0.09%}",
+  "YSRCP{2.06%}",
+  "ZPM{0.03%}",
+  "Others{7.03%}",
+];
+var yValues = [
+  7147800, 808245, 8952587, 1298707, 289941, 1400215, 28213393, 625954, 458677,
+  3657237, 9413379, 235973935, 777570, 13153818, 3157184, 11342553, 1736771,
+  1128616, 11754710, 136759064, 226975, 1716186, 2173701, 8039663, 1147041,
+  23268, 435980, 2652955, 113827, 277365, 2810250, 140264, 2059179, 5921162,
+  350967, 6372220, 417930, 299536, 10107402, 596955, 64578, 1814318, 77171,
+  7401447, 9567779, 164396, 29549381, 12775270, 44563, 488995, 571078, 13316039,
+  208552, 45386696,
+];
+var barColors = [
+  "#0072B0",
+  "#8F5E1C",
+  "#A08547",
+  "#3B02C9",
+  "#ff3333",
+  "#00664d",
+  "#aebedf",
+  "#8AB3C5",
+  "#3A15F9",
+  "#F84996",
+  "#9547A2",
+  "#ff944d",
+  "#4D73AE",
+  "#000078",
+  "#e70d21",
+  "#FF1D15",
+  "#E97D43",
+  "#E6C018",
+  "#05F86E",
+  "#19AAED",
+  "#EA0D35",
+  "#006600",
+  "#02865A",
+  "#39AC57",
+  "#1094D3",
+  "#3879C4",
+  "#87C2B9",
+  "#337316",
+  "#00009C",
+  "#A209D6",
+  "#A2006D",
+  "#2E5694",
+  "#4bc0c0",
+  "#EC79FD",
+  "#483D8B",
+  "#ff6384",
+  "#ffb84d",
+  "#306D29",
+  "#D6901B",
+  "#99cc00",
+  "#0BFE5D",
+  "#715B2F",
+  "#68C539",
+  "#D2691E",
+  "#30F59B",
+  "#9A485D",
+  "#ff0000",
+  "#204795",
+  "#AD6812",
+  "#51F4A9",
+  "#A17693",
+  "#eb3734",
+  "#B3B300",
+  "#b3b3b3",
+];
+
+const overViewPi = xValues.map((item, index) => {
+  // separate the percentage from the party name
+  const partyName = item.split("{")[0];
+  const percentage = item.split("{")[1].split("}")[0];
+  return {
+    partyName: partyName,
+    percentage: percentage,
+    count: yValues[index],
+    backgroundColor: barColors[index],
+  };
+});
+
+// create a json file for the above data
+fs.writeFileSync("overViewPi.json", JSON.stringify(overViewPi));
